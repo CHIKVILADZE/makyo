@@ -94,11 +94,6 @@ const frameworkOptions = [
     label: 'React', 
     icon: <ReactIcon className="w-4 h-4" /> 
   },
-  { 
-    value: 'vue', 
-    label: 'Vue.js', 
-    icon: <VueIcon className="w-4 h-4" /> 
-  }
 ];
 
 <SelectDropdown
@@ -199,17 +194,7 @@ The component uses Tailwind CSS classes for styling. You can customize the appea
    />
    ```
 
-2. **Overriding CSS:**
-   ```css
-   .your-custom-class {
-     /* Your custom styles */
-   }
-   ```
 
-3. **Using the outlined prop:**
-   ```tsx
-   <SelectDropdown outlined={false} /> // Removes border
-   ```
 
 ## ⌨️ Keyboard Navigation
 
@@ -264,13 +249,7 @@ const { control } = useForm();
 />
 ```
 
-## 🌍 Browser Support
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- IE 11+ (with polyfills)
 
 ## 📝 Dependencies
 
@@ -304,43 +283,12 @@ npm run build-storybook
 
 # Run tests
 npm test
-```
 
-## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
-## 📄 License
+]
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🎯 Roadmap
 
-- [ ] Virtual scrolling for large datasets
-- [ ] Async option loading
-- [ ] Grouped options support
-- [ ] Custom themes support
-- [ ] RTL language support
-- [ ] Mobile touch gestures
 
-## 📞 Support
-
-- 📧 Email: support@makyo.dev
-- 🐛 Issues: [GitHub Issues](https://github.com/makyo/select-dropdown/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/makyo/select-dropdown/discussions)
-
-## 🏆 Acknowledgments
-
-- [Floating UI](https://floating-ui.com/) for positioning
-- [Tailwind CSS](https://tailwindcss.com/) for styling
-- [Headless UI](https://headlessui.dev/) for accessibility patterns
-
----
-
-Made with ❤️ by the Makyo Team
